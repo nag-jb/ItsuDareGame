@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A790CA225D003EF00961982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790CA125D003EF00961982 /* AppDelegate.swift */; };
+		1A790CA425D003EF00961982 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790CA325D003EF00961982 /* SceneDelegate.swift */; };
+		1A790CA625D003EF00961982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790CA525D003EF00961982 /* ViewController.swift */; };
+		1A790CA925D003EF00961982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790CA725D003EF00961982 /* Main.storyboard */; };
+		1A790CAB25D003F000961982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A790CAA25D003F000961982 /* Assets.xcassets */; };
+		1A790CAE25D003F000961982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790CAC25D003F000961982 /* LaunchScreen.storyboard */; };
+		1A790CB925D003F000961982 /* ItsuDareGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790CB825D003F000961982 /* ItsuDareGameTests.swift */; };
+		1A790CC425D003F000961982 /* ItsuDareGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790CC325D003F000961982 /* ItsuDareGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A790CB525D003F000961982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A790C9625D003EF00961982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A790C9D25D003EF00961982;
+			remoteInfo = ItsuDareGame;
+		};
+		1A790CC025D003F000961982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A790C9625D003EF00961982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A790C9D25D003EF00961982;
+			remoteInfo = ItsuDareGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A790C9E25D003EF00961982 /* ItsuDareGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItsuDareGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A790CA125D003EF00961982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A790CA325D003EF00961982 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A790CA525D003EF00961982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A790CA825D003EF00961982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A790CAA25D003F000961982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A790CAD25D003F000961982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A790CAF25D003F000961982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A790CB425D003F000961982 /* ItsuDareGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsuDareGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A790CB825D003F000961982 /* ItsuDareGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsuDareGameTests.swift; sourceTree = "<group>"; };
+		1A790CBA25D003F000961982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A790CBF25D003F000961982 /* ItsuDareGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsuDareGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A790CC325D003F000961982 /* ItsuDareGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItsuDareGameUITests.swift; sourceTree = "<group>"; };
+		1A790CC525D003F000961982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A790C9B25D003EF00961982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CB125D003F000961982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CBC25D003F000961982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A790C9525D003EF00961982 = {
+			isa = PBXGroup;
+			children = (
+				1A790CA025D003EF00961982 /* ItsuDareGame */,
+				1A790CB725D003F000961982 /* ItsuDareGameTests */,
+				1A790CC225D003F000961982 /* ItsuDareGameUITests */,
+				1A790C9F25D003EF00961982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A790C9F25D003EF00961982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A790C9E25D003EF00961982 /* ItsuDareGame.app */,
+				1A790CB425D003F000961982 /* ItsuDareGameTests.xctest */,
+				1A790CBF25D003F000961982 /* ItsuDareGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A790CA025D003EF00961982 /* ItsuDareGame */ = {
+			isa = PBXGroup;
+			children = (
+				1A790CA125D003EF00961982 /* AppDelegate.swift */,
+				1A790CA325D003EF00961982 /* SceneDelegate.swift */,
+				1A790CA525D003EF00961982 /* ViewController.swift */,
+				1A790CA725D003EF00961982 /* Main.storyboard */,
+				1A790CAA25D003F000961982 /* Assets.xcassets */,
+				1A790CAC25D003F000961982 /* LaunchScreen.storyboard */,
+				1A790CAF25D003F000961982 /* Info.plist */,
+			);
+			path = ItsuDareGame;
+			sourceTree = "<group>";
+		};
+		1A790CB725D003F000961982 /* ItsuDareGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A790CB825D003F000961982 /* ItsuDareGameTests.swift */,
+				1A790CBA25D003F000961982 /* Info.plist */,
+			);
+			path = ItsuDareGameTests;
+			sourceTree = "<group>";
+		};
+		1A790CC225D003F000961982 /* ItsuDareGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A790CC325D003F000961982 /* ItsuDareGameUITests.swift */,
+				1A790CC525D003F000961982 /* Info.plist */,
+			);
+			path = ItsuDareGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A790C9D25D003EF00961982 /* ItsuDareGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A790CC825D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGame" */;
+			buildPhases = (
+				1A790C9A25D003EF00961982 /* Sources */,
+				1A790C9B25D003EF00961982 /* Frameworks */,
+				1A790C9C25D003EF00961982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItsuDareGame;
+			productName = ItsuDareGame;
+			productReference = 1A790C9E25D003EF00961982 /* ItsuDareGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A790CB325D003F000961982 /* ItsuDareGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A790CCB25D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGameTests" */;
+			buildPhases = (
+				1A790CB025D003F000961982 /* Sources */,
+				1A790CB125D003F000961982 /* Frameworks */,
+				1A790CB225D003F000961982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A790CB625D003F000961982 /* PBXTargetDependency */,
+			);
+			name = ItsuDareGameTests;
+			productName = ItsuDareGameTests;
+			productReference = 1A790CB425D003F000961982 /* ItsuDareGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A790CBE25D003F000961982 /* ItsuDareGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A790CCE25D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGameUITests" */;
+			buildPhases = (
+				1A790CBB25D003F000961982 /* Sources */,
+				1A790CBC25D003F000961982 /* Frameworks */,
+				1A790CBD25D003F000961982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A790CC125D003F000961982 /* PBXTargetDependency */,
+			);
+			name = ItsuDareGameUITests;
+			productName = ItsuDareGameUITests;
+			productReference = 1A790CBF25D003F000961982 /* ItsuDareGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A790C9625D003EF00961982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1A790C9D25D003EF00961982 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1A790CB325D003F000961982 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1A790C9D25D003EF00961982;
+					};
+					1A790CBE25D003F000961982 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1A790C9D25D003EF00961982;
+					};
+				};
+			};
+			buildConfigurationList = 1A790C9925D003EF00961982 /* Build configuration list for PBXProject "ItsuDareGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A790C9525D003EF00961982;
+			productRefGroup = 1A790C9F25D003EF00961982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A790C9D25D003EF00961982 /* ItsuDareGame */,
+				1A790CB325D003F000961982 /* ItsuDareGameTests */,
+				1A790CBE25D003F000961982 /* ItsuDareGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A790C9C25D003EF00961982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A790CAE25D003F000961982 /* LaunchScreen.storyboard in Resources */,
+				1A790CAB25D003F000961982 /* Assets.xcassets in Resources */,
+				1A790CA925D003EF00961982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CB225D003F000961982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CBD25D003F000961982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A790C9A25D003EF00961982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A790CA625D003EF00961982 /* ViewController.swift in Sources */,
+				1A790CA225D003EF00961982 /* AppDelegate.swift in Sources */,
+				1A790CA425D003EF00961982 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CB025D003F000961982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A790CB925D003F000961982 /* ItsuDareGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A790CBB25D003F000961982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A790CC425D003F000961982 /* ItsuDareGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A790CB625D003F000961982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A790C9D25D003EF00961982 /* ItsuDareGame */;
+			targetProxy = 1A790CB525D003F000961982 /* PBXContainerItemProxy */;
+		};
+		1A790CC125D003F000961982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A790C9D25D003EF00961982 /* ItsuDareGame */;
+			targetProxy = 1A790CC025D003F000961982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A790CA725D003EF00961982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A790CA825D003EF00961982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A790CAC25D003F000961982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A790CAD25D003F000961982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A790CC625D003F000961982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A790CC725D003F000961982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A790CC925D003F000961982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A790CCA25D003F000961982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A790CCC25D003F000961982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItsuDareGame.app/ItsuDareGame";
+			};
+			name = Debug;
+		};
+		1A790CCD25D003F000961982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItsuDareGame.app/ItsuDareGame";
+			};
+			name = Release;
+		};
+		1A790CCF25D003F000961982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ItsuDareGame;
+			};
+			name = Debug;
+		};
+		1A790CD025D003F000961982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ItsuDareGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.tatsui.nagiwo.ItsuDareGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ItsuDareGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A790C9925D003EF00961982 /* Build configuration list for PBXProject "ItsuDareGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A790CC625D003F000961982 /* Debug */,
+				1A790CC725D003F000961982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A790CC825D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A790CC925D003F000961982 /* Debug */,
+				1A790CCA25D003F000961982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A790CCB25D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A790CCC25D003F000961982 /* Debug */,
+				1A790CCD25D003F000961982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A790CCE25D003F000961982 /* Build configuration list for PBXNativeTarget "ItsuDareGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A790CCF25D003F000961982 /* Debug */,
+				1A790CD025D003F000961982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A790C9625D003EF00961982 /* Project object */;
+}
